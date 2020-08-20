@@ -1,9 +1,15 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 1.75em;
+  letter-spacing: .3em;
   text-align: center;
+  justify-content: center;
 }
 body {
-  width: 640px;
+  max-width: 640px;
+  line-height: 75px;
   margin: 0 auto;
 }
 .full-img {
@@ -11,22 +17,6 @@ body {
   display: block;
   width: 640px;
   height: 480px;
-}
-.thumb-bar img {
-  display: block;
-  width: 20%;
-  float: left;
-  cursor: pointer;
-}
-
-/* */
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 640px;
-  height: 480px;
-  background-color: rgba(0, 0, 0, 0);
 }
 .thumb-bar img {
   display: block;
@@ -43,4 +33,12 @@ button {
   cursor: pointer;
   top: 2px;
   left: 2px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 640px;
+  max-height: 480px;
+  background-color: rgba(0, 0, 0, 0);
 }
