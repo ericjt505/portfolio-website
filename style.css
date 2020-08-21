@@ -18,6 +18,15 @@ h2 {
   text-align: left;
   cursor: pointer;
 }
+h3 {
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-size: 1.25em;
+  letter-spacing: .3em;
+  line-height: 660px;
+  text-align: left;
+  cursor: pointer;
+}
 p {
   font-family: 'Open Sans';
   font-weight: 300;
@@ -28,11 +37,11 @@ p {
 .box {
   position: absolute;
   display: flex;
-  width: 650px;
+  width: 620px;
 }
 .box .imgBx {
-  width: 250px;
-  flex: 0 0 250px;
+  width: 150px;
+  flex: 0 0 150px;
 }
 .box .imgBx img {
   max-width: 100%;
@@ -96,7 +105,7 @@ button {
 .underline3 {
   border-bottom: 2px solid #999;
   width: 100%;
-  height: 400px;
+  height: 350px;
 }
 .underline4 {
   border-bottom: 2px solid #999;
