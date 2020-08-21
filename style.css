@@ -10,11 +10,11 @@ h1 {
   cursor: pointer;
 }
 h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik';
   font-weight: 300;
   font-size: 1.15em;
   letter-spacing: .3em;
-  line-height: 150px;
+  line-height: 120px;
   text-align: left;
   cursor: pointer;
 }
@@ -24,6 +24,30 @@ p {
   font-size: .85em;
   line-height: 1.75em;
   text-align: left;
+}
+.box {
+  position: absolute;
+  display: flex;
+  width: 650px;
+}
+.box .imgBx {
+  width: 250px;
+  flex: 0 0 250px;
+}
+.box .imgBx img {
+  max-width: 100%;
+}
+.box .content {
+  padding-left: 15px;
+}
+.box .content p {
+  margin: 0;
+  padding-left: 0;
+}
+.header {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1.15em;
 }
 body {
   max-width: 640px;
@@ -67,12 +91,12 @@ button {
 .underline2 {
   border-bottom: 2px solid #999;
   width: 100%;
-  height: 175px;
+  height: 160px;
 }
 .underline3 {
   border-bottom: 2px solid #999;
   width: 100%;
-  height: 95px;
+  height: 400px;
 }
 .underline4 {
   border-bottom: 2px solid #999;
