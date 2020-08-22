@@ -142,7 +142,6 @@ nav ul {
   list-style-type: none;
 }
 .footer-container img {
-  display: inline-block;
   width: 35px;
   margin: 0 8px 8px 8px;
   float: right;
@@ -158,9 +157,9 @@ nav ul {
 font-family: 'Open Sans';
 font-weight: 100;
 font-size: 12px;
-line-height: 85px;
-position: absolute;
 right: 0px;
-left: 560px;
+left: 555px;
 width: 300px;
+line-height: 105px;
+
 }
