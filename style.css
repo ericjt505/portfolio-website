@@ -1,6 +1,7 @@
+/* Eric J Tolbert text */
+
 h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik';
   font-weight: 300;
   font-size: 1.875em;
   letter-spacing: .3em;
@@ -9,35 +10,43 @@ h1 {
   justify-content: center;
   cursor: pointer;
 }
+
+/* BIO text */
+
 h2 {
   font-family: 'Rubik';
   font-weight: 300;
   font-size: 1.15em;
   letter-spacing: .3em;
-  line-height: 120px;
+  line-height: 100px;
   text-align: left;
-  cursor: pointer;
 }
+
+/* Image gallery text */
+
 h3 {
   font-family: 'Rubik';
   font-weight: 300;
   font-size: 1.25em;
   letter-spacing: .3em;
-  line-height: 660px;
+  line-height: 560px;
   text-align: left;
-  cursor: pointer;
 }
-p {
+
+/* Follow Us */
+
+h4 {
   font-family: 'Open Sans';
-  font-weight: 300;
-  font-size: .85em;
-  line-height: 1.75em;
+  font-weight: 600;
+  font-size: 1.35em;
+  line-height: 30px;
   text-align: left;
+  padding: 1px;
 }
 .box {
   position: absolute;
   display: flex;
-  width: 620px;
+  width: 630px;
 }
 .box .imgBx {
   width: 150px;
@@ -50,6 +59,10 @@ p {
   padding-left: 15px;
 }
 .box .content p {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: .9em;
+  line-height: 1.6em;
   margin: 0;
   padding-left: 0;
 }
@@ -67,10 +80,12 @@ body {
   display: flex;
   width: 640px;
   height: 480px;
-  padding-top: 15px;
+}
+.thumb-bar {
+  margin-bottom: 140px;
 }
 .thumb-bar img {
-  display: block;
+  display: flex;
   width: 20%;
   float: left;
   cursor: pointer;
@@ -82,7 +97,7 @@ button {
   border: 1px solid #999;
   position: absolute;
   cursor: pointer;
-  top: 18px;
+  top: 3px;
   left: 3px;
 }
 .overlay {
@@ -100,30 +115,52 @@ button {
 .underline2 {
   border-bottom: 2px solid #999;
   width: 100%;
-  height: 160px;
+  height: 70px;
 }
 .underline3 {
   border-bottom: 2px solid #999;
   width: 100%;
-  height: 350px;
-}
-.underline4 {
-  border-bottom: 2px solid #999;
-  width: 100%;
-  height: 95px;
+  height: 300px;
 }
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 15px;
+  height: 14px;
   background-color: #ffffff;
   padding: 0 10%;
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 nav ul {
   font-family: "Rubik";
-  font-weight: 300;
+  font-weight: 200;
   display: contents;
   list-style-type: none;
+}
+.footer-container img {
+  display: inline-block;
+  width: 35px;
+  margin: 0 8px 8px 8px;
+  float: right;
+}
+.navigate {
+  font-family: 'Open Sans';
+  font-size: 1.15em;
+  font-weight: 300;
+  word-spacing: 5px;
+  text-align: center;
+}
+.bottom {
+font-family: 'Open Sans';
+font-weight: 100;
+font-size: 12px;
+line-height: 85px;
+position: absolute;
+right: 0px;
+left: 560px;
+width: 300px;
 }

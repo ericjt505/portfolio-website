@@ -49,3 +49,38 @@ input[type=submit] {
     margin-top: 0;
   }
 }
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 14px;
+  background-color: #ffffff;
+  padding: 0 10%;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+nav ul {
+  font-family: "Rubik";
+  font-weight: 200;
+  display: contents;
+  list-style-type: none;
+}
+/* Eric J Tolbert text */
+
+h1 {
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-size: 1.875em;
+  letter-spacing: .3em;
+  line-height: 50px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.underline1 {
+  border-bottom: 3px solid #999;
+  width: 100%;
+}
